@@ -3,34 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
+    <meta name="description" content="Viriditas - Breathing life into home gardening with sustainable practices and a focus on urban well-being.">
+    <title>Viriditas | Greenness in Every Home</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f3f3f3;
+            color: #2d2d2d;
+            background-color: #f4f4f4;
+            line-height: 1.6;
         }
-        .container {
+        header {
+            background: linear-gradient(135deg, #6bbf59, #3a8039);
+            color: #fff;
+            padding: 20px 10px;
             text-align: center;
         }
-        .container h1 {
-            font-size: 3em;
-            color: #333;
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
         }
-        .container p {
-            font-size: 1.5em;
-            color: #666;
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+        .hero {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #e8f5e9;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #3a8039;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #2d622b;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        .feature {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1 1 calc(33% - 40px);
+            max-width: 900px;
+        }
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .feature h3 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+        }
+        footer {
+            background: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Website Under Construction</h1>
-        <p>We're working hard to bring you a great experience. Stay tuned!</p>
-    </div>
+    <header>
+        <h1>Viriditas</h1>
+        <p>Greenness in Every Home</p>
+    </header>
+    <section class="hero">
+        <button>Create Your Garden</button>
+        <p>Coming soon...</p>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <img src="images/Landing DALL·E 2025-01-09 22.06.52 - A romantic illustration of a lush indoor garden.webp" alt="Autoctones species">
+            <h3>Breathe Life into Your Home Gardening</h3>
+            <p>Viriditas blends the energy of nature with urban well-being, inspiring sustainable indoor and outdoor pocket gardens that nurture both plants and personal health.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Viriditas | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
